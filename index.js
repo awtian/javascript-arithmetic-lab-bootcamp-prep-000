@@ -4,7 +4,7 @@ function add(a , b) {
   return a + b
 }
 
-function substract (a, b) {
+function subtract (a, b) {
   return a - b
 }
 
@@ -13,15 +13,15 @@ function multiply (a, b) {
 }
 
 function divide (a, b) {
-  return a * b
+  return a / b
 }
 function inc(n) {
-  return n ++
+  return n += 1
 }
 function dec(n) {
-  return n --
+  return n -= 1
 }
-function makeInt(n) {
+function makeInt(n, 10) {
   return parseInt(n)
 }
 function preserveDecimal(n) {
